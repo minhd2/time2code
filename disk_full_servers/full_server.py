@@ -1,4 +1,11 @@
+"""
+Open the file and grab the percentage.
+Strip away the % and turn into float to use for if condition.
+Add server:percentage pair into dictionary.
+return Dictionary
 
+Complexity: O(N), for lines in logs
+"""
 def full_servers(filename):
 	full_disk_dict = {}
 
