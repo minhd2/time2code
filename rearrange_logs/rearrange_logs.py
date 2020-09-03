@@ -1,7 +1,8 @@
+#I could have probably sorted the dictionaries for the stats_log.txt to look nicer.
 
 
 def rearrange_logs(*args):
-	calls_per_day_dict = dict()
+
 	getdict = dict()
 	setdict = dict()
 	adddict = dict()
@@ -24,6 +25,8 @@ def rearrange_logs(*args):
 					with open('add_log.txt', 'a+') as addlog:
 						addlog.write(line)
 						adddict[date] = adddict.get(date, 1) + 1
+
+
 
 	with open('stats_log.txt', 'a+') as stats:
 		stats.write('Get')
