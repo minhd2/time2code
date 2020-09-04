@@ -23,14 +23,14 @@ def find_good_food(filename):
 				continue
 			column = line.split()
 			cost = float(column[2].lstrip('$'))
-			if column[-1] == 'Yes' and cost < 50:
-				goodcosts.append((column[0], column[1], column[2], column[3]))
+			if column[-1] == 'Yes' and cost <= 50 and cost >= 20:
+				goodcosts.append(column)
 
 
 		sortgoodcosts = sorted(goodcosts, key=lambda x:datetime.strptime(x[0], '%m/%d/%y'))
 
 		for item in sortgoodcosts:
-			print('{} {} {} {}'.format(item[0], item[1], item[2], item[3]))
+			print(' '.join(item))
 
 		return sortgoodcosts
 
