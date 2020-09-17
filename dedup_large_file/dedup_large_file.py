@@ -1,3 +1,8 @@
+# Thought Process:
+#	1) Using an OrderedDict() go through each line and add as key
+#	2) For each item in key, append to new file, overwriting new file if
+#		it exists already or create it if not.
+
 from collections import OrderedDict
 
 
