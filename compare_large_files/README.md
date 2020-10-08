@@ -12,3 +12,7 @@ This is line2,
 ...  
 
 Output: True if they are the same file, False if they aren't.
+
+Knowledge Used:
+1) Multi-file parsing
+2) For-loop
