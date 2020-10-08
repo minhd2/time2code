@@ -28,5 +28,4 @@ def special_words(filename):
 
         return sorted_words
 
-
 special_words('data.txt')
