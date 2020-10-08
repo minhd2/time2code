@@ -8,7 +8,7 @@ Pseudocode:
 4) Iterate through file once more to find that line number
 5) Take note that in coding line starts at 0. 
 
-Big O: O(n) although we have to iterate twice as file shouldn't fit in RAM
+Big O: O(2n) we have to iterate twice as file shouldn't fit in RAM
 """
 
 

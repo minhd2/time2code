@@ -9,7 +9,7 @@ def find_valid_ip(filename):
 	with open(filename, 'r') as file:
 		for line in file:
 			if re.match(pattern, line):
-				valid_ip.append(line.rstrip("\n"))
+				valid_ips.append(line.rstrip("\n"))
 
 	return valid_ips
 

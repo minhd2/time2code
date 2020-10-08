@@ -36,6 +36,7 @@ def clear_things(filename):
 		pidtimediff[sortedfile[index][2]] = str(timedifference)
 		print(sortedfile[index][2], timedifference)
 
+	print(pidtimediff)
 	return pidtimediff
 
 
