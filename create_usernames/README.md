@@ -1,3 +1,7 @@
+Problem Statement: You are given a file with the contents of employee informatino, first name, last name, employeeID, startdate. You want to add another column containing the username, if there is collision then increment the end with the next available number.
+
+
+
 input: a file with following content
  
 Firstname Lastname EmployeeID StartDate
