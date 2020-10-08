@@ -1,3 +1,20 @@
+"""
+Pseudocode:
+1) Go through active.txt to find all active users and add into a dictionary as key, value can be anything
+2) Return that dictionary and use it's output in another function
+3) Using Regex, go through each line in contact.txt
+4) Separate username and phone number with regex grouping
+5) Add number into a new dictionary with username as key
+6) Go through dictionary once more to find all left over valued as 1 and change that to company number
+7) Print and return dictionary
+
+Data Structures:
+1) Dictionary{username: ifActive=1}
+2) Dcitionary{username: phonenumber}
+
+Big O: O(n), n being the number of lines in a file
+"""
+
 import re
 
 
