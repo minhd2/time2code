@@ -1,9 +1,17 @@
-# Thought process:
-#	1) Put all items into a list and sort by PID
-#	2) Go through list index and index+1, step 2 as we know it's an even number
-#	3) Turn date/time into a datetime obj and find difference
-#	4) Append to an ordereddict and return the ordereddict
-#	Runtime: O(nlogn) due to sorting.
+"""
+Pseudocode:
+1) Put all items into a list and sort by PID
+2) Go through list index and index+1, step 2 as we know it's an even number
+3) Turn date/time into a datetime obj and find difference
+4) Append to an ordereddict and return the ordereddict
+
+Data Structures:
+1) List of lists containing each line. 
+2) Dictionary{pid:timespent}
+
+Runtime: O(nlogn) due to sorting.
+
+"""
 
 
 from datetime import datetime
