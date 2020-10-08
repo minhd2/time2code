@@ -1,7 +1,22 @@
+"""
+Pseudocode:
+1) Use Regex as three different patterns name, date, and number
+2) Separate them and organize it correctly and output to new file.
+3) Return the sorted dictionary 
+
+Data Structures:
+1) Dictionary{name:[number, date])}
+
+Big O: O(nlogn) because we are using sorted()
+
+"""
+
+
 import re
 
 
 def clean_mess(filename):
+
 
 	namepattern = r'[A-Za-z]+'
 	datepattern = r'\d{2}\/\d{2}\/\d{4}'
@@ -29,19 +44,7 @@ def clean_mess(filename):
 			newfile.write(newlineinput)
 			newfile.write('\n')
 
-			
-
-			
-
-
-				
-
-
-
-				
-
-				#print(name, number ,date)
-
+		return sorteddict
 
 
 clean_mess('data.txt')
