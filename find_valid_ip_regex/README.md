@@ -1,4 +1,6 @@
-Input: a file with following content
+Problem Statement: You are given a file with IPs, you have to find which IPs are valid.
+
+Input: A file with following content
 192.87.30.143
 143.24.163
 159.146,287.89
@@ -18,6 +20,11 @@ Output: valid IPs
 149.130.0.90
  
 Note:
-1) Please usr RE to implement your solution
+1) Please use Regex to implement your solution
 2) Leading zeros are not allowed unless the value is 0
-3) the file should give you an idea what to watch out for
+3) The file should give you an idea what to watch out for
+
+
+Knowledge Used:
+1) Regex
+2) Opening and parsing through file
